@@ -9,6 +9,7 @@ int main()
     cin >> y;
     _asm {
         // код на ассемблере
+
         XOR EAX, EAX
         XOR EBX, EBX
         MOV EAX, 5 // MOV[dst, src]
